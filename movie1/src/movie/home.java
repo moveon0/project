@@ -138,13 +138,31 @@ public class home {
         ImageIcon updateIcon4 = new ImageIcon(updateImg4);
         imglabel4.setIcon(updateIcon4);
         panel4.add(imglabel4); 
-
+        
+        
         //---------마이페이지
 
         JPanel my_Page_Panel = new JPanel();
         JButton my_Page = new JButton("마이페이지");
         my_Page_Panel.setBounds(1020, 10, 200,100);
         my_Page_Panel.add(my_Page);
+        
+       
+         
+         
+         
+        my_Page.addActionListener(new ActionListener() {
+             @Override
+             public void actionPerformed(ActionEvent e) {
+                 
+                
+                 // Open the second frame
+                 JFrame secondFrame = new PreviousButton(f);
+                 topPanel.setVisible(false);
+                 secondFrame.setVisible(true);
+                 
+             }
+         });
 
         //-------------------------------------------------
 
