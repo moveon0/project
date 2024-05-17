@@ -159,7 +159,7 @@ public class Homedemo extends JFrame{
 
       JPanel panel6 = new JPanel();
       panel6.setBounds(370, 150, 200, 300);
-      JLabel imglabel6 = new JLabel();// 이미지 담을 라벨
+      JLabel imglabel6 = new JLabel();// 이미지 담을 라벨.
       ImageIcon icon6 = new ImageIcon("img\\monster.jpg");// 이미지 주소
       Image img6 = icon6.getImage();
       Image updateImg6 = img6.getScaledInstance(200, 300, Image.SCALE_DEFAULT);// 크기조정

@@ -110,7 +110,7 @@ public class Payment extends JFrame implements ActionListener {
 
 			@Override
 			public void mouseExited(MouseEvent e) {
-				// 마우스가 해당 컴포넌트 영역 밖으로 나갈때 발생
+				// 마우스가 해당 컴포넌트 영역 밖으로 나갈때 발생.
 				btn1.setBackground(new Color(240, 245, 247));
 			}
 		});

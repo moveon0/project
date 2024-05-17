@@ -225,7 +225,7 @@ class info extends JLabel {
    }
 }
 
-//극장, 날짜, 시간 라벨
+//극장, 날짜, 시간 라벨.
 class Choice_Label extends JLabel {
 
    public void Set_Text(String text) {

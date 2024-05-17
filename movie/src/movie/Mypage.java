@@ -62,7 +62,7 @@ public class Mypage extends JFrame {
 		setLayout(new FlowLayout());
 		getContentPane().setLayout(null);
 
-		// Back button
+		// Back button.
 		JPanel Your_Book_Panel = new JPanel();
 		Your_Book_Panel.setBounds(0, 0, 1200, 150);
 		Your_Book_Panel.setLayout(null);

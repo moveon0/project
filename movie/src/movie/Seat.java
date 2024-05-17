@@ -204,7 +204,7 @@ class Seat_Panel extends JPanel{
 	}
 }
 
-//극장, 날짜, 시간 라벨
+//극장, 날짜, 시간 라벨s
 class Count {
 	public static String Count(String text) {
 		return text;
