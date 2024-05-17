@@ -56,7 +56,7 @@ public class Payment extends JFrame implements ActionListener {
 
 		r1.setBackground(new Color(240, 245, 247)); // 색상
 		r1.setBorderPainted(true); // 외곽선
-		r1.setPreferredSize(new Dimension(150, 60)); // 버튼 사이즈
+		r1.setPreferredSize(new Dimension(150, 60)); // 버튼 사이즈.
 		r1.setFocusPainted(false); // 포커스 표시 설정
 
 		r2.setBackground(new Color(240, 245, 247));

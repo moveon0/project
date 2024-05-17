@@ -25,7 +25,7 @@ class Your_ticket extends JPanel {
 		setBorder(new LineBorder(Color.BLACK, 2));
 		setBounds(450, 200, 300, 500);
 
-		 /*theater = new Choice_Label();
+		 /*theater = new Choice_Label();.
 		 date = new Choice_Label();
 		 time = new Choice_Label();
 		 seat = new Choice_Label();

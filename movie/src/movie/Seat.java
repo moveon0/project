@@ -211,7 +211,7 @@ class Count {
 	}
 }
 
-//극장, 날짜, 시간 라벨
+//극장, 날짜, 시간 라벨.
 class Seat_Label extends JLabel {
 	public void Set_Text(String text) {
 		setText(text);

@@ -18,7 +18,7 @@ public class Homedemo extends JFrame{
       setTitle("영화예매");
       setLayout(null);
 
-      // 카드레이아웃
+      // 카드레이아웃.
 
       JPanel card = new JPanel(new CardLayout());
 
